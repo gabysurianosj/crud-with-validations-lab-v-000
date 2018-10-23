@@ -50,4 +50,5 @@ class SongsController < ApplicationController
       def current_song
         @song = Song.find(params[:id])
       end
+
 end
